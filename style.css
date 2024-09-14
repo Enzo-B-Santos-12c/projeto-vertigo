@@ -10,6 +10,7 @@
     --grey-600: #475569;
     --grey-400: #94a3b8;
     --grey-200: #e2e8f0;
+    --white: #FFF;
     --purple: #7c3aed;
 }
 
@@ -86,6 +87,18 @@ main{
 .login input:hover,
 .login input:focus{
     outline: 1px solid var(--purple);
+}
+
+.login button {
+    margin-top: 1rem;
+    padding-block: 1rem;
+    width: 100%;
+    background-color: var(--purple);
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white);
 }
 
 
